@@ -34,7 +34,7 @@ void main()
 		int flag=0;
 		for(int i=2;i<n;i++)
 		{
-			if(i%10==0)
+			if(n%i==0)
 			{
 				flag=1;
 				printf("The Number is not a prime number");
